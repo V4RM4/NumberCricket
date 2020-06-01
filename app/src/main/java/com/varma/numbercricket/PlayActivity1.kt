@@ -60,10 +60,15 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 1
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
-                Toast.makeText(applicationContext, Score2.toString(), Toast.LENGTH_SHORT).show()
                 if (cpu_input == 1) {
                     data2 -= 1
                     runs -= 1
@@ -117,6 +122,12 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 2
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
@@ -174,6 +185,12 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 3
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
@@ -231,6 +248,12 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 4
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
@@ -287,6 +310,12 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 5
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
@@ -343,6 +372,12 @@ class PlayActivity1 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 cpur.text=cpu_input.toString()
                 runs += 6
+                if (runs > Score2)
+                {
+                    val match2intent = Intent(this, EndActivity::class.java)
+                    startActivity(match2intent)
+                    finish()
+                }
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
