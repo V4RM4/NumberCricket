@@ -2,6 +2,7 @@ package com.varma.numbercricket
 
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -33,13 +34,16 @@ class EndActivity : AppCompatActivity() {
 
         if (Score1 > Score2)
         {
-            tvResult.text="You scored: "+Score1.toString()
+            tvResult.text="You scored "+Score1.toString()+" runs."
             tvWinner.text="\n\nCongrats! You won the match!"
+            tvWinner.setTextColor(Color.parseColor("#4CAF50"))
             }
         else if (Score2 > Score1)
         {
-            tvResult.text="CPU scored: "+Score2.toString()
+            tvResult.text="It scored "+Score2.toString()+" runs."
             tvWinner.text="\n\nCPU wins! Better luck next match!"
+
+            tvWinner.setTextColor(Color.parseColor("#F62929"))
         }
         else
         {

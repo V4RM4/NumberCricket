@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:paddingRight="20dp"
         android:text="Wickets"
-        android:textSize="15sp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -21,9 +22,10 @@
         android:id="@+id/tv62"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/wicket"
+        android:layout_toEndOf="@+id/wicket"
+        android:layout_marginTop="20dp"
         android:text=""
-        android:textSize="15sp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#F44336"/>
 
@@ -32,9 +34,9 @@
         android:layout_below="@+id/wicket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingRight="30dp"
+        android:paddingRight="40dp"
         android:text="Balls"
-        android:textSize="15sp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -45,9 +47,19 @@
         android:layout_below="@+id/wicket"
         android:layout_alignRight="@+id/balls"
         android:text=""
-        android:textSize="15sp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#E91E63"/>
+
+    <TextView
+        android:id="@+id/RTW1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#F44336"
+        android:text=""/>
 
 
     <TextView
@@ -69,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/cpu"
-        android:text=""
+        android:text="Let's"
         android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#6200EE"/>
@@ -91,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/cpur1"
-        android:text=""
+        android:text="GO!"
         android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
@@ -103,7 +115,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv69"
         android:text="Player"
-        android:paddingBottom="60dp"
+        android:paddingBottom="20dp"
         android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
@@ -147,6 +159,7 @@
         android:layout_height="wrap_content"
         android:text="4"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 
@@ -158,6 +171,7 @@
         android:layout_height="wrap_content"
         android:text="5"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 
@@ -169,6 +183,7 @@
         android:layout_height="wrap_content"
         android:text="6"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 

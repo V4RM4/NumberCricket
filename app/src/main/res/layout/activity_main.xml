@@ -34,9 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:textSize="15dp"
-        android:textColor="#000000"
+        android:textColor="#CD000000"
         style="@style/TextAppearance.MaterialComponents.Headline1"
-        android:text="How to play"/>
+        android:text="How to play?"/>
 
     <TextView
         android:id="@+id/tv04"
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
-        android:textColor="#000000"
-        android:text="1. Choose your bet\n2. Select your play style\n3. Choose your wickets/overs\n4. Start Playing!"/>
+        android:textColor="#CD000000"
+        android:text="1. Choose your bet\n\n2. If you win, select your style of play\n\n3. Choose your wickets &amp; overs\n\n4. Start playing by clicking the numbers!"/>
 
 
     <TextView
@@ -57,7 +57,7 @@
         android:layout_marginTop="100dp"
         android:layout_centerInParent="true"
         style="@style/TextAppearance.MaterialComponents.Headline1"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:textColor="#000000"
         android:text="Click 'Start' to play"/>
 

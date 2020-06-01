@@ -26,6 +26,13 @@ class PlayActivity2 : AppCompatActivity() {
         val Result1 =getSharedPreferences("RunsKeyA", Context.MODE_PRIVATE)
         val Score1 = Result1.getInt("RunsA", 0)
 
+        if (turn == 2)
+        {
+            val score1 : Int=Score1+1
+            val rtwText1 = "CPU needs $score1 runs or above to win!"
+            RTW1.text=rtwText1
+        }
+
         if (data1 == "CPUBatting")
         {
             tv611.text="CPU Batting"

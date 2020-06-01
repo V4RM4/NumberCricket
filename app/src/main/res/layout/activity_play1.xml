@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:paddingRight="20dp"
         android:text="Wickets"
-        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/wicket"
         android:text=""
-        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#F44336"/>
 
@@ -31,9 +33,9 @@
         android:layout_below="@+id/wicket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingRight="30dp"
+        android:paddingRight="40dp"
         android:text="Balls"
-        android:textSize="15sp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -44,9 +46,19 @@
         android:layout_below="@+id/wicket"
         android:layout_alignRight="@+id/balls"
         android:text=""
-        android:textSize="15sp"
+        android:textSize="20sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#E91E63"/>
+
+    <TextView
+        android:id="@+id/RTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#F44336"
+        android:text=""/>
 
 
     <TextView
@@ -68,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/cpu"
-        android:text=""
+        android:text="Let's"
         android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
@@ -79,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/cpur"
-        android:text=""
+        android:text="Go!"
         android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#6200EE"/>
@@ -91,7 +103,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv59"
         android:text="Player Runs"
-        android:paddingBottom="60dp"
+        android:paddingBottom="20dp"
         android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
@@ -135,6 +147,7 @@
         android:layout_height="wrap_content"
         android:text="4 Runs"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 
@@ -146,6 +159,7 @@
         android:layout_height="wrap_content"
         android:text="5 Runs"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 
@@ -157,6 +171,7 @@
         android:layout_height="wrap_content"
         android:text="6 Runs"
         style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="15dp"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
 

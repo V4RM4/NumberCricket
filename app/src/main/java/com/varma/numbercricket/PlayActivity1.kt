@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_play1.*
+import kotlinx.android.synthetic.main.activity_play2.*
 import java.math.BigInteger
 
 class PlayActivity1 : AppCompatActivity() {
@@ -26,6 +27,13 @@ class PlayActivity1 : AppCompatActivity() {
 
         val Result2 =getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
         val Score2 = Result2.getInt("RunsB", 0)
+
+        if (turn == 1)
+        {
+            val score1 : Int=Score2+1
+            val rtwText = "Score $score1 runs or above to win!"
+            RTW1.text=rtwText
+        }
 
         if (data1 == "PlayerBatting")
         {

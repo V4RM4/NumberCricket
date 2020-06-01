@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/tvResult"
+        android:layout_below="@+id/tvWinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -20,7 +21,6 @@
 
     <TextView
         android:id="@+id/tvWinner"
-        android:layout_below="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -31,7 +31,7 @@
 
     <Button
         android:id="@+id/btPA"
-        android:layout_below="@+id/tvWinner"
+        android:layout_below="@+id/tvResult"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
