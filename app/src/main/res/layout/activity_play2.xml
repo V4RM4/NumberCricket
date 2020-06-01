@@ -168,6 +168,9 @@
         android:text="CPU Batting"
         android:layout_alignParentBottom="true"
         android:paddingTop="30dp"
+        android:textSize="25sp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/bt66"
         android:textColor="#FF5722"/>
 
