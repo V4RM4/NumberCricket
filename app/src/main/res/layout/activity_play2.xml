@@ -102,7 +102,7 @@
         android:layout_below="@+id/player"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1 Run  "
+        android:text="1"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
@@ -113,7 +113,7 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2 Runs"
+        android:text="2"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
@@ -124,7 +124,7 @@
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3 Runs"
+        android:text="3"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
@@ -134,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_below="@+id/bt61"
         android:layout_height="wrap_content"
-        android:text="4 Runs"
+        android:text="4"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
@@ -145,7 +145,7 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="5 Runs"
+        android:text="5"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
@@ -156,7 +156,7 @@
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="6 Runs"
+        android:text="6"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
         android:textSize="20sp"/>
