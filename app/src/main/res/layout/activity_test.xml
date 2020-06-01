@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:id="@+id/wicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="Wickets"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/wicket"
+        android:text="9"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/balls"
+        android:layout_below="@+id/wicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="Balls"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wicket"
+        android:layout_alignRight="@+id/balls"
+        android:text="9"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/balls"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+
+
+    <TextView
+        android:id="@+id/cpur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cpu"
+        android:text="6"
+        android:textSize="120dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/cpur"
+        android:text="6"
+        android:textSize="120dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv59"
+        android:text="Player"
+        android:paddingBottom="80dp"
+        android:textSize="15dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/bt51"
+        android:layout_below="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        style="@"/>
+
+    <Button
+        android:id="@+id/bt52"
+        android:layout_below="@+id/player"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/bt53"
+        android:layout_below="@+id/player"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/bt54"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/bt51"
+        android:layout_height="wrap_content"
+        android:text="4"/>
+
+    <Button
+        android:id="@+id/bt55"
+        android:layout_below="@+id/bt52"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/bt56"
+        android:layout_below="@+id/bt53"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"/>
+
+    <TextView
+        android:id="@+id/tv511"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Batting"
+        android:paddingTop="30dp"
+        android:layout_below="@id/bt56"/>
+
+
+
+
+
+
+</RelativeLayout>

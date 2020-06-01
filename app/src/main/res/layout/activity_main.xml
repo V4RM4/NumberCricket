@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp">
+
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to \nNumber Cricket!"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        style="@style/TextAppearance.MaterialComponents.Headline1"/>
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_below="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="A trip down the nostalgia lane, on Android."
+        android:textColor="#000000"
+        style="@style/TextAppearance.MaterialComponents.Headline3"/>
+
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_below="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:text="How to play"/>
+
+    <TextView
+        android:id="@+id/tv04"
+        android:layout_below="@+id/tv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textColor="#000000"
+        android:text="1. Choose your bet\n2. Select your play style\n3. Choose your wickets/overs\n4. Start Playing!"/>
+
+
+    <TextView
+        android:id="@+id/tv05"
+        android:layout_below="@id/tv04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:text="Click 'Start' to play"/>
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_below="@id/tv05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="START"
+        android:padding="20dp"
+        android:textSize="30dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="About"/>
+
+
+</RelativeLayout>
