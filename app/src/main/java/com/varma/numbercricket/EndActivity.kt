@@ -43,7 +43,15 @@ class EndActivity : AppCompatActivity() {
         }
 
         btPA.setOnClickListener(){
-            val play_again = Intent(this,MainActivity::class.java)
+            val play_again = Intent(this,BetActivity::class.java)
+            val spA = getSharedPreferences("RunsKeyA", Context.MODE_PRIVATE)
+            val editorA = spA.edit()
+            editorA.clear()
+            editorA.apply()
+            val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
+            val editorB = spB.edit()
+            editorB.clear()
+            editorB.apply()
             startActivity(play_again)
         }
 

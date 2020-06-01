@@ -1,5 +1,6 @@
 package com.varma.numbercricket
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,6 +16,14 @@ class MainActivity : AppCompatActivity() {
         val start = findViewById<Button>(R.id.bt01)
         start.setOnClickListener(){
             val home = Intent(this,BetActivity::class.java)
+            val spA = getSharedPreferences("RunsKeyA", Context.MODE_PRIVATE)
+            val editorA = spA.edit()
+            editorA.clear()
+            editorA.apply()
+            val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
+            val editorB = spB.edit()
+            editorB.clear()
+            editorB.apply()
             startActivity(home)
         }
 

@@ -63,12 +63,6 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="1"
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -82,13 +76,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -97,13 +89,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -121,12 +111,6 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -140,13 +124,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -155,13 +137,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -181,12 +161,6 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -200,13 +174,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -215,13 +187,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -241,12 +211,6 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -260,13 +224,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -275,13 +237,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -300,12 +260,6 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -319,13 +273,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -334,13 +286,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -359,12 +309,6 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
                 runs += cpu_input
-                if (runs > Score1)
-                {
-                    val match2intent = Intent(this, EndActivity::class.java)
-                    startActivity(match2intent)
-                    
-                }
                 totalBalls -= 1
                 cpur1.text = runs.toString()
                 tv64.text = totalBalls.toString()
@@ -378,13 +322,11 @@ class PlayActivity2 : AppCompatActivity() {
                         if (turn == 1) {
                             val match2intent = Intent(this, PlayActivity1::class.java)
                             startActivity(match2intent)
-                            
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
                         }
                         Toast.makeText(applicationContext, "All Out!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -393,13 +335,11 @@ class PlayActivity2 : AppCompatActivity() {
                     if (turn == 1) {
                         val match2intent = Intent(this, PlayActivity1::class.java)
                         startActivity(match2intent)
-                        
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
@@ -419,13 +359,11 @@ class PlayActivity2 : AppCompatActivity() {
             if (turn == 1) {
                 val match2intent = Intent(this, PlayActivity1::class.java)
                 startActivity(match2intent)
-                
             }
             else
             {
                 val match2intent = Intent(this, EndActivity::class.java)
                 startActivity(match2intent)
-                
             }
         }
 
