@@ -17,9 +17,11 @@ class StyleActivity : AppCompatActivity() {
         val batting_button = findViewById<Button>(R.id.bt21)
         val bowling_button = findViewById<Button>(R.id.bt22)
 
+        //Button method for batting..
+
         batting_button.setOnClickListener(){
             val bat_intent = Intent(applicationContext,FactorActivity1::class.java)
-            var bet = "PlayerBatting"
+            val bet = "PlayerBatting"
             val sharedPref = getSharedPreferences("Key", Context.MODE_PRIVATE)
             val editor = sharedPref.edit()
             editor.putString("value", bet)
@@ -30,9 +32,11 @@ class StyleActivity : AppCompatActivity() {
             toast.show()
         }
 
+        //Button method for bowling..
+
         bowling_button.setOnClickListener(){
             val bowl_intent = Intent(applicationContext,FactorActivity1::class.java)
-            var bet = "PlayerBowling"
+            val bet = "PlayerBowling"
             val sharedPref = getSharedPreferences("Key", Context.MODE_PRIVATE)
             val editor = sharedPref.edit()
             editor.putString("value", bet)

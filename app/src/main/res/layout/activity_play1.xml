@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:paddingRight="20dp"
         android:text="Wickets"
-        android:textSize="15dp"
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -22,8 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/wicket"
-        android:text="9"
-        android:textSize="15dp"
+        android:text=""
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#F44336"/>
 
@@ -34,7 +33,7 @@
         android:layout_height="wrap_content"
         android:paddingRight="30dp"
         android:text="Balls"
-        android:textSize="15dp"
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -44,8 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/wicket"
         android:layout_alignRight="@+id/balls"
-        android:text="9"
-        android:textSize="15dp"
+        android:text=""
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#E91E63"/>
 
@@ -57,7 +56,7 @@
         android:text="CPU"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/balls"
-        android:textSize="15dp"
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -69,8 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/cpu"
-        android:text="6"
-        android:textSize="120dp"
+        android:text=""
+        android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -80,8 +79,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/cpur"
-        android:text="6"
-        android:textSize="120dp"
+        android:text=""
+        android:textSize="120sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#6200EE"/>
 
@@ -93,7 +92,7 @@
         android:layout_below="@+id/tv59"
         android:text="Player"
         android:paddingBottom="80dp"
-        android:textSize="15dp"
+        android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
 
@@ -105,7 +104,7 @@
         android:text="1 Run  "
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/bt52"
@@ -116,7 +115,7 @@
         android:text="2 Runs"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/bt53"
@@ -127,7 +126,7 @@
         android:text="3  Runs"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/bt54"
@@ -137,7 +136,7 @@
         android:text="4 Runs"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/bt55"
@@ -148,7 +147,7 @@
         android:text="5 Runs"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/bt56"
@@ -159,7 +158,7 @@
         android:text="6 Runs"
         style="@style/Widget.MaterialComponents.Button"
         android:textColor="#ffffff"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/tv511"

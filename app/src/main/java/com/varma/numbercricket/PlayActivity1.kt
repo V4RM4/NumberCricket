@@ -29,8 +29,7 @@ class PlayActivity1 : AppCompatActivity() {
 
         if (data1 == "PlayerBatting")
         {
-            tv511.text="Player Batting"
-            var who1 = "Player"
+            val who1 = "Player"
             val spA1 = getSharedPreferences("Who", Context.MODE_PRIVATE)
             val editorA1 = spA1.edit()
             editorA1.putString("who", who1)
@@ -38,8 +37,7 @@ class PlayActivity1 : AppCompatActivity() {
         }
         else
         {
-            tv511.text="Player Batting"
-            var who1 = "Player"
+            val who1 = "Player"
             val spA1 = getSharedPreferences("Who", Context.MODE_PRIVATE)
             val editorA1 = spA1.edit()
             editorA1.putString("who", who1)
@@ -65,24 +63,26 @@ class PlayActivity1 : AppCompatActivity() {
                 totalBalls -= 1
                 tv59.text = runs.toString()
                 tv54.text = totalBalls.toString()
+                Toast.makeText(applicationContext, Score2.toString(), Toast.LENGTH_SHORT).show()
                 if (cpu_input == 1) {
                     data2 -= 1
                     runs -= 1
                     tv59.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
                     tv52.text = data2.toString()
-                    if (data2 <= 0) {
-                        if (turn == 2) {
+                    if (data2 <= 0){
+                        if (turn == 2 ) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
-                            
+                            finish()
 
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
-                            
+                            finish()
+
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
                     }
@@ -91,16 +91,19 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
-                        
+                        finish()
+
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
-                        
+                        finish()
+
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
+
 
                 val spA = getSharedPreferences("RunsKeyA", Context.MODE_PRIVATE)
                 val editorA = spA.edit()
@@ -127,12 +130,14 @@ class PlayActivity1 : AppCompatActivity() {
                         if (turn == 2) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -142,12 +147,14 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -180,12 +187,14 @@ class PlayActivity1 : AppCompatActivity() {
                         if (turn == 2) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -195,12 +204,14 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -233,12 +244,14 @@ class PlayActivity1 : AppCompatActivity() {
                         if (turn == 2) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -248,12 +261,14 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -285,12 +300,14 @@ class PlayActivity1 : AppCompatActivity() {
                         if (turn == 2) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -300,12 +317,14 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -337,12 +356,14 @@ class PlayActivity1 : AppCompatActivity() {
                         if (turn == 2) {
                             val match2intent = Intent(this, PlayActivity2::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         else
                         {
                             val match2intent = Intent(this, EndActivity::class.java)
                             startActivity(match2intent)
+                            finish()
                             
                         }
                         Toast.makeText(applicationContext, "All Out!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -352,12 +373,14 @@ class PlayActivity1 : AppCompatActivity() {
                     if (turn == 2) {
                         val match2intent = Intent(this, PlayActivity2::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     else
                     {
                         val match2intent = Intent(this, EndActivity::class.java)
                         startActivity(match2intent)
+                        finish()
                         
                     }
                     Toast.makeText(applicationContext, "Over up!, You scored $runs runs!", Toast.LENGTH_SHORT).show()
@@ -378,12 +401,14 @@ class PlayActivity1 : AppCompatActivity() {
             if (turn == 2) {
                 val match2intent = Intent(this, PlayActivity2::class.java)
                 startActivity(match2intent)
+                finish()
                 
             }
             else
             {
                 val match2intent = Intent(this, EndActivity::class.java)
                 startActivity(match2intent)
+                finish()
                 
             }
         }
