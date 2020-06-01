@@ -2,11 +2,16 @@ package com.varma.numbercricket
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_end.*
 
 class EndActivity : AppCompatActivity() {
+    override fun onBackPressed() {
+        Toast.makeText(applicationContext, "Can't go back at this stage!", Toast.LENGTH_SHORT).show()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_end)
@@ -28,13 +33,13 @@ class EndActivity : AppCompatActivity() {
 
         if (Score1 > Score2)
         {
-            tvResult.text=Score1.toString()
-            tvWinner.text="Congrats! You won the match!"
+            tvResult.text="You scored: "+Score1.toString()
+            tvWinner.text="\n\nCongrats! You won the match!"
             }
         else if (Score2 > Score1)
         {
-            tvResult.text=Score2.toString()
-            tvWinner.text="CPU wins! Better luck next match!"
+            tvResult.text="CPU scored: "+Score2.toString()
+            tvWinner.text="\n\nCPU wins! Better luck next match!"
         }
         else
         {

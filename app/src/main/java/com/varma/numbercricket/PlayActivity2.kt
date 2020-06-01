@@ -98,6 +98,18 @@ class PlayActivity2 : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
 
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
+                }
+
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
                 val editorB = spB.edit()
                 editorB.putInt("RunsB", runs)
@@ -144,6 +156,18 @@ class PlayActivity2 : AppCompatActivity() {
                         startActivity(match2intent)
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
+                }
+
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
                 }
 
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
@@ -196,6 +220,18 @@ class PlayActivity2 : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
 
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
+                }
+
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
                 val editorB = spB.edit()
                 editorB.putInt("RunsB", runs)
@@ -244,6 +280,18 @@ class PlayActivity2 : AppCompatActivity() {
                         startActivity(match2intent)
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
+                }
+
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
                 }
 
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
@@ -295,6 +343,19 @@ class PlayActivity2 : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
                 }
 
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
+                }
+
+
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
                 val editorB = spB.edit()
                 editorB.putInt("RunsB", runs)
@@ -342,6 +403,18 @@ class PlayActivity2 : AppCompatActivity() {
                         startActivity(match2intent)
                     }
                     Toast.makeText(applicationContext, "Over up!, CPU scored $runs runs!", Toast.LENGTH_SHORT).show()
+                }
+
+                if (data2 >= 0 || totalBalls >=0)
+                {
+                    if (turn != 1)
+                    {
+                        if (runs>Score1)
+                        {
+                            val match2intent = Intent(this, EndActivity::class.java)
+                            startActivity(match2intent)
+                        }
+                    }
                 }
 
                 val spB = getSharedPreferences("RunsKeyB", Context.MODE_PRIVATE)
