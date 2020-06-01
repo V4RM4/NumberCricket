@@ -444,7 +444,6 @@ class PlayActivity1 : AppCompatActivity() {
                 val match2intent = Intent(this, EndActivity::class.java)
                 startActivity(match2intent)
                 finish()
-                
             }
         }
 
