@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_end.*
 
 class EndActivity : AppCompatActivity() {
     override fun onBackPressed() {
-        Toast.makeText(applicationContext, "Can't go back at this stage!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext, "Can't go back from here!", Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
