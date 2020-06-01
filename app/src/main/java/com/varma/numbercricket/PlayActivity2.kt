@@ -28,8 +28,8 @@ class PlayActivity2 : AppCompatActivity() {
 
         if (turn == 2)
         {
-            val score1 : Int=Score1+1
-            val rtwText1 = "CPU needs $score1 runs or above to win!"
+            val scoreb : Int=Score1+1
+            val rtwText1 = "CPU needs "+scoreb+" runs or above to win!"
             RTW1.text=rtwText1
         }
 

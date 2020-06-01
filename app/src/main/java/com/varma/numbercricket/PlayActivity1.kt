@@ -30,9 +30,9 @@ class PlayActivity1 : AppCompatActivity() {
 
         if (turn == 1)
         {
-            val score1 : Int=Score2+1
-            val rtwText = "Score $score1 runs or above to win!"
-            RTW1.text=rtwText
+            val scorea : Int=Score2+1
+            val rtwText = "Score"+scorea+" runs or above to win!"
+            RTW.text=rtwText
         }
 
         if (data1 == "PlayerBatting")
