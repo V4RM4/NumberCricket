@@ -26,7 +26,7 @@ class StyleActivity : AppCompatActivity() {
             editor.apply()
             startActivity(bat_intent)
             val toast = Toast.makeText(this,"You've picked batting!",Toast.LENGTH_SHORT)
-            toast.setGravity(Gravity.CENTER,0,0)
+            toast.setGravity(Gravity.TOP,0,1000)
             toast.show()
         }
 
@@ -39,7 +39,7 @@ class StyleActivity : AppCompatActivity() {
             editor.apply()
             startActivity(bowl_intent)
             val toast = Toast.makeText(this,"You've picked bowling!",Toast.LENGTH_SHORT)
-            toast.setGravity(Gravity.CENTER,0,0)
+            toast.setGravity(Gravity.TOP,0,1000)
             toast.show()
         }
     }
