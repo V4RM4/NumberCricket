@@ -86,11 +86,7 @@ class BetActivity : AppCompatActivity() {
                 if (toss % 2 == 0) {
                     val intent = Intent(this, StyleActivity::class.java)
                     startActivity(intent)
-                    val toast = Toast.makeText(
-                        this,
-                        "You won the toss! Choose your side",
-                        Toast.LENGTH_SHORT
-                    )
+                    val toast = Toast.makeText(this, "You won the toss! Choose your side", Toast.LENGTH_SHORT)
                     toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
                 }

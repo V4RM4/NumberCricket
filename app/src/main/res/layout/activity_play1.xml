@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv59"
-        android:text="Player"
+        android:text="Player Runs"
         android:paddingBottom="60dp"
         android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"

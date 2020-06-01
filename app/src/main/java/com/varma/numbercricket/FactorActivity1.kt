@@ -24,7 +24,7 @@ class FactorActivity1 : AppCompatActivity() {
         val cont_button = findViewById<Button>(R.id.bt31)
         cont_button.setOnClickListener(){
             val toast = Toast.makeText(this,np01.value.toString()+" wicket(s) selected",Toast.LENGTH_SHORT)
-            toast.setGravity(Gravity.TOP,0,500)
+            toast.setGravity(Gravity.TOP,0,350)
             toast.show()
             var wickets : Int = np01.value
             val cont_intent = Intent(this,FactorActivity2::class.java)

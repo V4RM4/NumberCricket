@@ -67,7 +67,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 1
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0){
                         if (turn == 2 ) {
@@ -138,7 +138,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 2
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 2) {
@@ -208,7 +208,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 3
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 2) {
@@ -278,7 +278,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 4
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 2) {
@@ -346,7 +346,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 5
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 2) {
@@ -415,7 +415,7 @@ class PlayActivity1 : AppCompatActivity() {
                     data2 -= 1
                     runs -= 6
                     tv59.text = runs.toString()
-                    Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    tv59.text="Out!"
                     tv52.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 2) {

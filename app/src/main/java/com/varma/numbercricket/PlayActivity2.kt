@@ -62,6 +62,7 @@ class PlayActivity2 : AppCompatActivity() {
                 val cpu_input:Int = (1..6).random()
                 tv69.text="1"
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -71,6 +72,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
@@ -122,6 +124,7 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="2"
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -131,6 +134,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
@@ -184,6 +188,7 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="3"
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -193,6 +198,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
@@ -246,6 +252,7 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="4"
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -255,6 +262,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
@@ -307,6 +315,7 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="5"
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -316,6 +325,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
@@ -369,6 +379,7 @@ class PlayActivity2 : AppCompatActivity() {
                 tv69.text="6"
                 val cpu_input:Int = (1..6).random()
                 Toast.makeText(applicationContext, "CPU plays " + cpu_input.toString(), Toast.LENGTH_SHORT).show()
+                plusValue.text=" +"+cpu_input.toString()
                 runs += cpu_input
                 totalBalls -= 1
                 cpur1.text = runs.toString()
@@ -378,6 +389,7 @@ class PlayActivity2 : AppCompatActivity() {
                     runs -= cpu_input
                     cpur1.text = runs.toString()
                     Toast.makeText(applicationContext, "Out!", Toast.LENGTH_SHORT).show()
+                    cpur1.text="Out!"
                     tv62.text = data2.toString()
                     if (data2 <= 0) {
                         if (turn == 1) {
