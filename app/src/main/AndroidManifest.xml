@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AboutActivity"></activity>
-        <activity android:name=".TestActivity" />
         <activity android:name=".EndActivity" />
         <activity android:name=".PlayActivity2" />
         <activity android:name=".PlayActivity1" />
