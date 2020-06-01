@@ -32,7 +32,7 @@ class BetActivity : AppCompatActivity() {
                 val intent = Intent(this, StyleActivity::class.java)
                 startActivity(intent)
                 val toast = Toast.makeText(this, "You won the toss! Choose your side", Toast.LENGTH_SHORT)
-                toast.setGravity(Gravity.TOP, 0, 800)
+                toast.setGravity(Gravity.TOP, 0, 350)
                 toast.show()
             }
 
@@ -48,7 +48,7 @@ class BetActivity : AppCompatActivity() {
                     editor.apply()
                     startActivity(intent)
                     val toast = Toast.makeText(this, "CPU wins the toss and chooses Batting!", Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.TOP, 0, 800)
+                    toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
                 } else {
                     bet = "CPUBowling" //Even wins, the CPU has chosen Bowling!
@@ -59,7 +59,7 @@ class BetActivity : AppCompatActivity() {
                     editor.apply()
                     startActivity(intent)
                     val toast = Toast.makeText(this, "CPU wins the toss and chooses Bowling!", Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.TOP, 0, 800)
+                    toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
 
                 }
@@ -67,7 +67,7 @@ class BetActivity : AppCompatActivity() {
                 else
                 {
                     val toast = Toast.makeText(this, "Toss is draw, let's go again!", Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.TOP, 0, 800)
+                    toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
                 }
             }
@@ -91,7 +91,7 @@ class BetActivity : AppCompatActivity() {
                         "You won the toss! Choose your side",
                         Toast.LENGTH_SHORT
                     )
-                    toast.setGravity(Gravity.TOP, 0, 800)
+                    toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
                 }
                 else if (toss % 2 != 0)
@@ -106,7 +106,7 @@ class BetActivity : AppCompatActivity() {
                         editor.apply()
                         startActivity(intent)
                         val toast = Toast.makeText(this, "CPU wins the toss and chooses Batting!", Toast.LENGTH_SHORT)
-                        toast.setGravity(Gravity.TOP, 0, 800)
+                        toast.setGravity(Gravity.TOP, 0, 350)
                         toast.show()
                     }
                     else
@@ -119,7 +119,7 @@ class BetActivity : AppCompatActivity() {
                         editor.apply()
                         startActivity(intent)
                         val toast = Toast.makeText(this, "CPU wins the toss and chooses Bowling!", Toast.LENGTH_SHORT)
-                        toast.setGravity(Gravity.TOP, 0, 800)
+                        toast.setGravity(Gravity.TOP, 0, 350)
                         toast.show()
 
                     }
@@ -128,7 +128,7 @@ class BetActivity : AppCompatActivity() {
                 else
                 {
                     val toast = Toast.makeText(this, "Toss is draw, let's go again!", Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.TOP, 0, 800)
+                    toast.setGravity(Gravity.TOP, 0, 350)
                     toast.show()
                 }
 

@@ -35,8 +35,8 @@ class FactorActivity2 : AppCompatActivity() {
                     editor.apply()
                     val cont_intent2 = Intent(this, PlayActivity2::class.java)
                     startActivity(cont_intent2)
-                    val toast = Toast.makeText(this,np11.value.toString()+" overs(s) selected\nYou are bowling!",Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.CENTER,0,0)
+                    val toast = Toast.makeText(this,np11.value.toString()+" overs(s) selected\n\n  You are bowling!",Toast.LENGTH_SHORT)
+                    toast.setGravity(Gravity.TOP,0,500)
                     toast.show()
                 }
                 else {
@@ -47,8 +47,8 @@ class FactorActivity2 : AppCompatActivity() {
                     editor.apply()
                     val cont_intent2 = Intent(this, PlayActivity1::class.java)
                     startActivity(cont_intent2)
-                    val toast = Toast.makeText(this,np11.value.toString()+" overs(s) selected\nYou are batting!",Toast.LENGTH_SHORT)
-                    toast.setGravity(Gravity.CENTER,0,0)
+                    val toast = Toast.makeText(this,np11.value.toString()+" overs(s) selected\n  You are batting!",Toast.LENGTH_SHORT)
+                    toast.setGravity(Gravity.TOP,0,500)
                     toast.show()
                 }
             }

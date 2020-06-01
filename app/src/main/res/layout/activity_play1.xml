@@ -91,7 +91,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv59"
         android:text="Player"
-        android:paddingBottom="80dp"
+        android:paddingBottom="60dp"
         android:textSize="15sp"
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:textColor="#000000"/>
